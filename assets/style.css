@@ -8,13 +8,27 @@
                                              
 ------------------------------------------ */
 
+/* Mise en place de la police et de la taille du texte */ 
 body {
     font-family: 'Major Mono Display', monospace;
     font-size: 1rem;
 }
 
-h1 {
+/* Changement taille du titre de niveau 1 */
+h1 { 
     font-size: 2em;
+}
+
+/* Effet d'annimation sur les cases du tableau de compétences lors du survol de la souris */
+tr:hover {
+    transform: scale(1);
+    transition: .5s;
+    transition-timing-function: linear;
+    transition-delay: .1s;
+    /* background-color: hsla(0, 0%, 29%, 0.5); */
+    background-image: linear-gradient(to right, #0066ff, #fa3bd3, #ff4f7f, #ffad22, #f7ff00);
+    font-size: 1.5em;
+    font-weight: 600;
 }
 
 /* ------------------------------------------
@@ -55,6 +69,9 @@ h1 {
 #competenceSection img {
     height: 1.5em;
 }
+#certifSection img {
+    height: 5em;
+}
 
 /* ------------------------------------------
    ______  __                        
@@ -66,28 +83,40 @@ h1 {
                                      
 ------------------------------------------ */
 
-.compt_titre, .compt_description, .certif_pro, .certif_titre, .certif_description {
+.compt_titre, .compt_description , .certif_titre, .certif_description {
     border: 2px solid rgba(28, 110, 164, 0.5);
     border-radius: 10px;
     padding: 1%;
 }
 
-
 .space {
     margin: 2%;
 }
 
-/* Effet d'annimation sur les cases du tableau de compétences lors du survol de la souris */
-tr:hover {
-    transform: scale(1);
-    transition: .5s;
-    transition-timing-function: linear;
-    transition-delay: .1s;
-    /* background-color: hsla(0, 0%, 29%, 0.5); */
-    background-image: linear-gradient(to right, #0066ff, #fa3bd3, #ff4f7f, #ffad22, #f7ff00);
-    font-size: 1.5em;
-    font-weight: 600;
+.certif_description {
+    display: flex;
+    align-items: center;
 }
+
+.certif_texte {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.certif_texte1{
+    text-align: center;
+    color: #1C4255;
+    font-size: 1.5em;
+}
+.certif_texte2{
+    color: #6b6b6b;
+}
+
+.certif_niveau{
+    margin: auto;
+}
+
 
 /* Permet de mettre en noir et blanc l'élément (utilisé pour les étoiles de compétences) */
 .grayscale {

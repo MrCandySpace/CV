@@ -95,7 +95,7 @@ Et grâce aux css avec un seul .png j'ai pus avoir 2 type d'étoile identique
     </div>
 
 
-    <div class="compt_space"></div> <!-- Espace entre les 2 block principaux -->
+    <div class="space"></div> <!-- Espace entre les block -->
 
 
     <div class="compt_autres">
