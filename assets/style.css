@@ -42,7 +42,7 @@ h1 {
     margin-top: 10%;
 }
 
-#competenceSection {
+#competenceSection, #certifSection {
     border: 2px solid rgba(28, 110, 164, 0.5);
     border-radius: 20px;
     padding: 1%;
@@ -56,10 +56,6 @@ h1 {
     height: 1.5em;
 }
 
-#compt_block {
-    background-color: red;
-}
-
 /* ------------------------------------------
    ______  __                        
  .' ___  |[  |                       
@@ -70,24 +66,15 @@ h1 {
                                      
 ------------------------------------------ */
 
-.compt_pro {
+.compt_titre, .compt_description, .certif_pro, .certif_titre, .certif_description {
     border: 2px solid rgba(28, 110, 164, 0.5);
     border-radius: 10px;
     padding: 1%;
 }
 
-.compt_autres {
-    border: 2px solid rgba(28, 110, 164, 0.5);
-    border-radius: 10px;
-    padding: 1%;
-}
 
-.compt_titre {
-    border-bottom: 2px solid rgba(28, 110, 164, 0.5);
-}
-
-.compt_space {
-    margin: 1%;
+.space {
+    margin: 2%;
 }
 
 /* Effet d'annimation sur les cases du tableau de compétences lors du survol de la souris */
