@@ -50,7 +50,7 @@ Et grâce aux css avec un seul .png j'ai pus avoir 2 type d'étoile identique
                         <td><img src="images/icons8-javascript-100.png" /> JS</td>
                         <td>
                             <img src="images/icons8-hand-drawn-star-100.png">
-                            <img src="images/icons8-hand-drawn-star-100.png">
+                            <img src="images/icons8-hand-drawn-star-100.png" class="grayscale">
                             <img src="images/icons8-hand-drawn-star-100.png" class="grayscale">
                             <img src="images/icons8-hand-drawn-star-100.png" class="grayscale">
                             <img src="images/icons8-hand-drawn-star-100.png" class="grayscale">

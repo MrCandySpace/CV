@@ -8,14 +8,14 @@
                                              
 ------------------------------------------ */
 
-/* Mise en place de la police et de la taille du texte */ 
+/* Mise en place de la police et de la taille du texte */
 body {
     font-family: 'Major Mono Display', monospace;
     font-size: 1rem;
 }
 
 /* Changement taille du titre de niveau 1 */
-h1 { 
+h1 {
     font-size: 2em;
 }
 
@@ -56,7 +56,9 @@ tr:hover {
     margin-top: 10%;
 }
 
-#competenceSection, #certifSection {
+#competenceSection,
+#certifSection,
+#formationSection {
     border: 2px solid rgba(28, 110, 164, 0.5);
     border-radius: 20px;
     padding: 1%;
@@ -69,6 +71,7 @@ tr:hover {
 #competenceSection img {
     height: 1.5em;
 }
+
 #certifSection img {
     height: 5em;
 }
@@ -83,12 +86,25 @@ tr:hover {
                                      
 ------------------------------------------ */
 
-.compt_titre, .compt_description , .certif_titre, .certif_description {
+/* Modification CSS du texte de la page compétences */
+.compt_titre,
+.compt_description,
+.certif_titre,
+.certif_description,
+.forma_titre,
+.forma_lieu_date,
+.forma_description {
     border: 2px solid rgba(28, 110, 164, 0.5);
     border-radius: 10px;
     padding: 1%;
 }
 
+/* Permet de mettre en noir et blanc l'élément (utilisé pour les étoiles de compétences) */
+.grayscale {
+    filter: grayscale(100%);
+}
+
+/* Utilisé pour crée l'espace entre les blocks */
 .space {
     margin: 2%;
 }
@@ -98,27 +114,30 @@ tr:hover {
     align-items: center;
 }
 
+/* Modification CSS du texte de la page certification */
 .certif_texte {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.certif_texte1{
+
+.certif_texte1 {
     text-align: center;
     color: #1C4255;
     font-size: 1.5em;
 }
-.certif_texte2{
+
+.certif_texte2 {
     color: #6b6b6b;
 }
 
-.certif_niveau{
+.certif_niveau {
     margin: auto;
 }
 
 
-/* Permet de mettre en noir et blanc l'élément (utilisé pour les étoiles de compétences) */
-.grayscale {
-    filter: grayscale(100%);
+.forma_titre {
+    text-align: center;
+    font-weight: bold;
 }
