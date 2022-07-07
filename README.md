@@ -1,5 +1,5 @@
 # Site CV
 
-Temps de travaille actuel ≃ 6h
+Temps de travaille actuel ≃ 8h
 
 ---
