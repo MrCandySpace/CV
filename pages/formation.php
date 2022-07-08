@@ -4,8 +4,8 @@
             Formation e-commerce
         </div>
         <div class="forma_lieu_date">
-            <p>Diginamic - Montpellier </p>
-            <p>2022</p>
+            <span>Diginamic - Montpellier</span>
+            <span>2022</span>
         </div>
         <div class="forma_description">
             <p>Activités réalisés :
@@ -25,8 +25,8 @@
             BTS SIO option SISR
         </div>
         <div class="forma_lieu_date">
-            <p>Lycée Dominique Villard - Gap </p>
-            <p>2019 - 2021</p>
+            <span>Lycée Dominique Villard - Gap </span>
+            <span>2019 - 2021</span>
         </div>
         <div class="forma_description">
             <p>Activités réalisés :
@@ -50,8 +50,8 @@
             BAC SN option RISC
         </div>
         <div class="forma_lieu_date">
-            <p>Lycée Pierre Mendès France - Veynes </p>
-            <p>2016 - 2019</p>
+            <span>Lycée Pierre Mendès France - Veynes</span>
+            <span>2016 - 2019</span>
         </div>
         <div class="forma_description">
             <p>Obtenue avec mention assez bien </p>

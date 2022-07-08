@@ -12,6 +12,8 @@
 body {
     font-family: 'Major Mono Display', monospace;
     font-size: 1rem;
+    background-image: linear-gradient(to right top, #ff000030, #f3630030, #de920030, #c2b70030, #a0d60030, #74dd5430, #46e08530, #00e1ad30, #00c6d930, #00a5ff30, #0078ff30, #0000ff30);
+    background-repeat: no-repeat;
 }
 
 /* Changement taille du titre de niveau 1 */
@@ -45,6 +47,7 @@ tr:hover {
     padding: 2%;
 }
 
+/* 404 */
 #erreur {
     font-family: 'Megrim', cursive;
     display: flex;
@@ -56,15 +59,18 @@ tr:hover {
     margin-top: 10%;
 }
 
+/* Modification CSS des sections */
 #competenceSection,
 #certifSection,
-#formationSection {
+#formationSection,
+#experienceSection {
     border: 2px solid rgba(28, 110, 164, 0.5);
     border-radius: 20px;
     padding: 1%;
     margin-top: 2%;
     margin-left: 20%;
     margin-right: 20%;
+    background-color: white;
 }
 
 /* Paramétrage de la taille des images */
@@ -86,17 +92,21 @@ tr:hover {
                                      
 ------------------------------------------ */
 
-/* Modification CSS du texte de la page compétences */
+/* Fait en sorte d'avoir les bordure sur les div */
 .compt_titre,
 .compt_description,
 .certif_titre,
 .certif_description,
 .forma_titre,
 .forma_lieu_date,
-.forma_description {
+.forma_description,
+.xp_titre,
+.xp_lieu_date,
+.xp_description {
     border: 2px solid rgba(28, 110, 164, 0.5);
     border-radius: 10px;
     padding: 1%;
+    margin-bottom: 0.5%;
 }
 
 /* Permet de mettre en noir et blanc l'élément (utilisé pour les étoiles de compétences) */
@@ -106,15 +116,15 @@ tr:hover {
 
 /* Utilisé pour crée l'espace entre les blocks */
 .space {
-    margin: 2%;
+    margin: 3%;
 }
 
+/* Modification CSS du texte de la page certification */
 .certif_description {
     display: flex;
     align-items: center;
 }
 
-/* Modification CSS du texte de la page certification */
 .certif_texte {
     display: flex;
     flex-direction: column;
@@ -136,8 +146,15 @@ tr:hover {
     margin: auto;
 }
 
-
-.forma_titre {
+/* Modification CSS des divs "titres" et "lieu&date" */
+.forma_titre,
+.xp_titre {
     text-align: center;
     font-weight: bold;
+}
+
+.forma_lieu_date,
+.xp_lieu_date {
+    display: flex;
+    justify-content: space-around;
 }
