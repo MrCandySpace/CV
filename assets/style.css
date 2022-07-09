@@ -75,7 +75,8 @@ h1 {
 ------------------------------------------ */
 
 #navbar {
-    padding: 2%;
+    /* padding: 2%; */
+    padding-top: 2%;
 }
 
 /* 404 */
@@ -103,12 +104,14 @@ h1 {
 }
 
 /* Modification CSS des sections */
+#accueilSection,
+#accueilSection2,
+#infoSection,
 #competenceSection,
-#certifSection,
-#certifSection2,
-#formationSection,
 #experienceSection,
-#infoSection {
+#formationSection,
+#certifSection,
+#certifSection2 {
     border: 2px solid rgba(28, 110, 164, 0.5);
     border-radius: 20px;
     padding: 1%;
@@ -131,6 +134,14 @@ h1 {
     /* justify-content: left; */
 }
 
+#accueilSection2 img {
+    display: flex;
+    height: 8em;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
 #certifSection2 .certif_texte1 {
     text-align: center;
     /* color: red; */
@@ -150,18 +161,20 @@ h1 {
 ------------------------------------------ */
 
 /* Fait en sorte d'avoir les bordure sur les div */
+.accueil_titre,
+.accueil_description,
+.info_titre,
+.info_description,
 .compt_titre,
 .compt_description,
-.certif_titre,
-.certif_description,
-.forma_titre,
-.forma_lieu_date,
-.forma_description,
 .xp_titre,
 .xp_lieu_date,
 .xp_description,
-.info_titre,
-.info_description {
+.forma_titre,
+.forma_lieu_date,
+.forma_description,
+.certif_titre,
+.certif_description {
     border: 2px solid rgba(28, 110, 164, 0.5);
     border-radius: 10px;
     padding: 1%;
@@ -182,6 +195,8 @@ h1 {
 .certif_description {
     display: flex;
     align-items: center;
+    margin: auto;
+    justify-content: left;
 }
 
 .certif_texte {
@@ -221,8 +236,15 @@ h1 {
     justify-content: space-around;
 }
 
-/* ------------ Background digi ------------ */
+.accueil_compte {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
 
+/* ------------ Background digi ------------ */
+.accueil_titre,
 .info_titre,
 .compt_titre,
 .compt_titre,
@@ -233,6 +255,7 @@ h1 {
     background-color: #223D56;
 }
 
+.accueil_description,
 .info_description,
 .compt_description,
 .xp_description,
