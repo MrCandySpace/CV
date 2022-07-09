@@ -62,6 +62,7 @@ tr:hover {
 /* Modification CSS des sections */
 #competenceSection,
 #certifSection,
+#certifSection2,
 #formationSection,
 #experienceSection {
     border: 2px solid rgba(28, 110, 164, 0.5);
@@ -78,8 +79,20 @@ tr:hover {
     height: 1.5em;
 }
 
-#certifSection img {
+#certifSection img,
+#certifSection2 img {
     height: 5em;
+    display: flex;
+    /* align-items: start; */
+    /* justify-content: left; */
+}
+
+#certifSection2 .certif_texte1 {
+    text-align: center;
+    /* color: red; */
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
 }
 
 /* ------------------------------------------
@@ -124,6 +137,12 @@ tr:hover {
     display: flex;
     align-items: center;
 }
+
+#certifSection2 .certif_titre {
+    text-align: center;
+    font-weight: bold;
+}
+
 
 .certif_texte {
     display: flex;
