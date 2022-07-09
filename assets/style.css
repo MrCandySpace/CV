@@ -21,18 +21,6 @@ h1 {
     font-size: 2em;
 }
 
-/* Effet d'annimation sur les cases du tableau de compétences lors du survol de la souris */
-tr:hover {
-    transform: scale(1);
-    transition: .5s;
-    transition-timing-function: linear;
-    transition-delay: .1s;
-    /* background-color: hsla(0, 0%, 29%, 0.5); */
-    background-image: linear-gradient(to right, #0066ff, #fa3bd3, #ff4f7f, #ffad22, #f7ff00);
-    font-size: 1.5em;
-    font-weight: 600;
-}
-
 /* ------------------------------------------
  _____  ______    
 |_   _||_   _ `.  
@@ -59,12 +47,25 @@ tr:hover {
     margin-top: 10%;
 }
 
+/* Effet d'annimation sur les cases du tableau de compétences lors du survol de la souris */
+#competenceSection tr:hover {
+    transform: scale(1);
+    transition: .5s;
+    transition-timing-function: linear;
+    transition-delay: .1s;
+    /* background-color: hsla(0, 0%, 29%, 0.5); */
+    background-image: linear-gradient(to right, #0066ff, #fa3bd3, #ff4f7f, #ffad22, #f7ff00);
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
 /* Modification CSS des sections */
 #competenceSection,
 #certifSection,
 #certifSection2,
 #formationSection,
-#experienceSection {
+#experienceSection,
+#infoSection {
     border: 2px solid rgba(28, 110, 164, 0.5);
     border-radius: 20px;
     padding: 1%;
@@ -115,7 +116,9 @@ tr:hover {
 .forma_description,
 .xp_titre,
 .xp_lieu_date,
-.xp_description {
+.xp_description,
+.info_titre,
+.info_description {
     border: 2px solid rgba(28, 110, 164, 0.5);
     border-radius: 10px;
     padding: 1%;
