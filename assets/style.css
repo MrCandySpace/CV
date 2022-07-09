@@ -220,3 +220,25 @@ h1 {
     display: flex;
     justify-content: space-around;
 }
+
+/* ------------ Background digi ------------ */
+
+.info_titre,
+.compt_titre,
+.compt_titre,
+.xp_titre,
+.forma_titre,
+.certif_titre {
+    color: white;
+    background-color: #223D56;
+}
+
+.info_description,
+.compt_description,
+.xp_description,
+.xp_lieu_date,
+.forma_description,
+.forma_lieu_date,
+.certif_description {
+    background-color: #f9b8145f;
+}
