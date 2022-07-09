@@ -1,3 +1,46 @@
+/*
+  _______  ___  ___    _______   ___        __     ______        __  ___________  __      ______    _____  ___           
+ /"     "||"  \/"  |  |   __ "\ |"  |      |" \   /" _  "\      /""\("     _   ")|" \    /    " \  (\"   \|"  \          
+(: ______) \   \  /   (. |__) :)||  |      ||  | (: ( \___)    /    \)__/  \\__/ ||  |  // ____  \ |.\\   \    |         
+ \/    |    \\  \/    |:  ____/ |:  |      |:  |  \/ \        /' /\  \  \\_ /    |:  | /  /    ) :)|: \.   \\  |         
+ // ___)_   /\.  \    (|  /      \  |___   |.  |  //  \ _    //  __'  \ |.  |    |.  |(: (____/ // |.  \    \. |         
+(:      "| /  \   \  /|__/ \    ( \_|:  \  /\  |\(:   _) \  /   /  \\  \\:  |    /\  |\\        /  |    \    \ |         
+ \_______)|___/\___|(_______)    \_______)(__\_|_)\_______)(___/    \___)\__|   (__\_|_)\"_____/    \___|\____\)         
+                                                                                                                         
+ ________    _______      ___            __            _______   _______  ____  ____   __    ___      ___       _______  
+|"      "\  /"     "|    |"  |          /""\          /"     "| /"     "|("  _||_ " | |" \  |"  |    |"  |     /"     "| 
+(.  ___  :)(: ______)    ||  |         /    \        (: ______)(: ______)|   (  ) : | ||  | ||  |    ||  |    (: ______) 
+|: \   ) || \/    |      |:  |        /' /\  \        \/    |   \/    |  (:  |  | . ) |:  | |:  |    |:  |     \/    |   
+(| (___\ || // ___)_      \  |___    //  __'  \       // ___)   // ___)_  \\ \__/ //  |.  |  \  |___  \  |___  // ___)_  
+|:       :)(:      "|    ( \_|:  \  /   /  \\  \     (:  (     (:      "| /\\ __ //\  /\  |\( \_|:  \( \_|:  \(:      "| 
+(________/  \_______)     \_______)(___/    \___)     \__/      \_______)(__________)(__\_|_)\_______)\_______)\_______) 
+                                                                                                                         
+  ______    ________  ________                                                                                           
+ /" _  "\  /"       )/"       )                                                                                          
+(: ( \___)(:   \___/(:   \___/                                                                                           
+ \/ \      \___  \   \___  \                                                                                             
+ //  \ _    __/  \\   __/  \\                                                                                            
+(:   _) \  /" \   :) /" \   :)                                                                                           
+ \_______)(_______/ (_______/                                                                                            
+                                                                                                                         
+
+La partie Défaut permet de modifier toutes les balises CSS de base sans aucun ID ni class
+Cette partie est très peu utilisé car bookstack ce charge de formaté la majorité des styles
+
+
+La partie ID permet de modifier tous les ID que j'ai pu mettre
+J'ai mis toutes les sections avec un ID 
+Cela me sert à mettres les bordures pour mon texte à fin qu'il ne prend que le milieu de la page
+J'ai aussi modifier les images directement dans l'ID pour me faire gagner du temps 
+
+
+La partie Class permet de modier toutes les class que j'ai mis 
+C'est la partie la plus importante de cette feuille de style 
+Etant donné que chaque div à une class bien distincte 
+Je peux très facilement identifié ce que je veux modifier
+
+*/
+
 /* ------------------------------------------
  ______              ___                _    
 |_   _ `.          .' ..]              / |_  
@@ -141,12 +184,6 @@ h1 {
     align-items: center;
 }
 
-#certifSection2 .certif_titre {
-    text-align: center;
-    font-weight: bold;
-}
-
-
 .certif_texte {
     display: flex;
     flex-direction: column;
@@ -170,7 +207,10 @@ h1 {
 
 /* Modification CSS des divs "titres" et "lieu&date" */
 .forma_titre,
-.xp_titre {
+.xp_titre,
+.certif_titre,
+.compt_titre,
+.info_titre {
     text-align: center;
     font-weight: bold;
 }
