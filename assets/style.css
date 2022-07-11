@@ -221,6 +221,7 @@ h1 {
 }
 
 /* ------------ Modification CSS des divs "titres" et "lieu&date" ------------ */
+.accueil_titre,
 .forma_titre,
 .xp_titre,
 .certif_titre,

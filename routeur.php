@@ -76,5 +76,6 @@ if (isset($_GET['page'])) {
         /* ************************************************ */
 
 } else {
-    include("pages/accueil.php");
+    /* include("pages/accueil.php"); */
+    include("pages/info.php");
 }
