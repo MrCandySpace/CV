@@ -191,6 +191,38 @@ h1 {
     margin: 3%;
 }
 
+/* ------------ Modification de la photo de profil ------------ */
+.pdp {
+    height: 10em;
+    margin: auto;
+    margin-top: 20%;
+    border-radius: 10%;
+    position: static;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+/* ------------ Modification CSS du texte de la page information ------------ */
+.info_description {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.info_pdp {
+    width: 30%;
+}
+
+.info_texte {
+    width: 70%;
+}
+
+.info_texte img{
+    height: 2em;
+}
+
 /* ------------ Modification CSS du texte de la page certification ------------ */
 .certif_description {
     display: flex;

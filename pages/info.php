@@ -11,6 +11,49 @@
 <section id="infoSection">
     <div class="info">
         <div class="info_titre">
+            Profil
+        </div>
+        <div class="info_description">
+            <div class="info_pdp">
+                <img src="images/pdp.png" class="pdp">
+            </div>
+            <div class="info_texte">
+                <p>
+                    <img src="images/icons8-nom-100.png">
+                    Nicolas VINCKIER
+                </p>
+                <p>
+                    <img src="images/icons8-chalet-100.png">
+                    Résidence West city 3 Bâtiment C
+                </p>
+                <p>
+                    <img src="images/icons8-lieu-dans-le-monde-entier-100.png">
+                    494 avenue du Bois Couchant, 34280, La Grande Motte
+                </p>
+                <p>
+                    <img src="images/icons8-téléphone-100.png">
+                    06 43 63 60 46
+                </p>
+                <p>
+                    <img src="images/icons8-anniversaire-100.png">
+                    21 ans - Né le : 11/02/2001
+                </p>
+                <p>
+                    <img src="images/icons8-gmail-100.png">
+                    nicolas.vinckier05@gmail.com
+                </p>
+                <p>
+                    <img src="images/icons8-voiture-100.png">
+                    Permis B + véhicule
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="space"></div>
+
+    <div class="info">
+        <div class="info_titre">
             Description
         </div>
         <div class="info_description">
