@@ -154,11 +154,13 @@
                 </p>
             </a>
         </div>
+        <!--
         <div>
             <img src="images/Gmail.png">
             <p>
                 nicolas.vinckier05@gmail.com
             </p>
         </div>
+-->
     </div>
 </section>

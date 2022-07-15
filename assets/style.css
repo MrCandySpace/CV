@@ -41,7 +41,7 @@ Je peux très facilement identifié ce que je veux modifier
 
 */
 
-/* ------------------------------------------
+/* ----------------------------------------------------------------------
  ______              ___                _    
 |_   _ `.          .' ..]              / |_  
   | | `. \ .---.  _| |_  ,--.  __   _ `| |-' 
@@ -49,7 +49,7 @@ Je peux très facilement identifié ce que je veux modifier
  _| |_.' /| \__.,  | |  // | |,| \_/ |,| |,  
 |______.'  '.__.' [___] \'-;__/'.__.'_/\__/  
                                              
------------------------------------------- */
+---------------------------------------------------------------------- */
 
 /* ------------ Mise en place de la police et de la taille du texte ------------ */
 body {
@@ -57,6 +57,7 @@ body {
     font-size: 1rem;
     background-image: linear-gradient(to right top, #ff000030, #f3630030, #de920030, #c2b70030, #a0d60030, #74dd5430, #46e08530, #00e1ad30, #00c6d930, #00a5ff30, #0078ff30, #0000ff30);
     background-repeat: no-repeat;
+    min-height: 100vh;
 }
 
 /* ------------ Changement taille du titre de niveau 1 ------------ */
@@ -64,7 +65,7 @@ h1 {
     font-size: 2em;
 }
 
-/* ------------------------------------------
+/* ----------------------------------------------------------------------
  _____  ______    
 |_   _||_   _ `.  
   | |    | | `. \ 
@@ -72,7 +73,7 @@ h1 {
  _| |_  _| |_.' / 
 |_____||______.'  
                   
------------------------------------------- */
+---------------------------------------------------------------------- */
 
 #navbar {
     /* padding: 2%; */
@@ -143,14 +144,14 @@ h1 {
 }
 
 #certifSection2 .certif_texte1 {
-    text-align: center;
+    text-align: left;
     /* color: red; */
     /* display: flex; */
     /* justify-content: center; */
     /* align-items: center; */
 }
 
-/* ------------------------------------------
+/* ----------------------------------------------------------------------
    ______  __                        
  .' ___  |[  |                       
 / .'   \_| | |  ,--.   .--.   .--.   
@@ -158,7 +159,7 @@ h1 {
 \ `.___.'\ | | // | |, `'.'.  `'.'.  
  `.____ .'[___]\'-;__/[\__) )[\__) ) 
                                      
------------------------------------------- */
+---------------------------------------------------------------------- */
 
 /* ------------ Fait en sorte d'avoir les bordure sur les div ------------ */
 .accueil_titre,
@@ -219,7 +220,7 @@ h1 {
     width: 70%;
 }
 
-.info_texte img{
+.info_texte img {
     height: 2em;
 }
 
@@ -236,6 +237,7 @@ h1 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: left;
 }
 
 .certif_texte1 {
@@ -297,4 +299,74 @@ h1 {
 .forma_lieu_date,
 .certif_description {
     background-color: #f9b8145f;
+}
+
+
+/* ----------------------------------------------------------------------
+
+,------.                                            ,--.                 
+|  .--. ' ,---.  ,---.  ,---.  ,---. ,--,--,  ,---. `--',--.  ,--.,---.  
+|  '--'.'| .-. :(  .-' | .-. || .-. ||      \(  .-' ,--. \  `'  /| .-. : 
+|  |\  \ \   --..-'  `)| '-' '' '-' '|  ||  |.-'  `)|  |  \    / \   --. 
+`--' '--' `----'`----' |  |-'  `---' `--''--'`----' `--'   `--'   `----' 
+                       `--'                                              
+---------------------------------------------------------------------- */
+
+@media screen and (max-width: 900px) {
+    #competenceSection tr:hover {
+        font-size: 1em;
+    }
+
+    #accueilSection,
+    #accueilSection2,
+    #infoSection,
+    #competenceSection,
+    #experienceSection,
+    #formationSection,
+    #certifSection,
+    #certifSection2 {
+        padding: 1%;
+        margin-top: 2%;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+    #certifSection img,
+    #certifSection2 img {
+        height: 3em;
+    }
+
+    #accueilSection2 img {
+        height: 2em;
+    }
+
+    .space {
+        margin: 5%;
+    }
+
+    .pdp {
+        height: 10em;
+        margin: auto;
+        position: static;
+    }
+
+    .info_description {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .info_pdp,
+    .info_texte {
+        width: 100%;
+    }
+
+    .info_texte img {
+        height: 2em;
+    }
+
+    .certif_texte1 {
+        font-size: 2em;
+    }
+
 }
