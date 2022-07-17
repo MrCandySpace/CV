@@ -52,8 +52,23 @@
         -->
         <!---------------------------------------------------------------->
 
-        <!-- Ajout des nouveaux block ICI -->
+        <!--                Ajout des nouveaux block ICI 
 
+                                        |                                
+                                        |
+                                        V                                -->
+        <!---------------------------------------------------------------->
+
+        <!---------------------------------------------------------------->
+        <div class="certif_description">
+            <img src="images/LinkedIn_logo_initials.png">
+            <div class="certif_texte">
+                <a href="https://www.linkedin.com/learning/certificates/afadfb7b2dd7f38b963bffa337c5287b9944cbb545eb12dec0e05eca3f9c9aee?u=91027594">
+                    <p class="certif_texte1">L'essentiel des CSS</p>
+                </a>
+            </div>
+        </div>
+        <div class="space"></div>
         <!---------------------------------------------------------------->
         <div class="certif_description">
             <img src="images/LinkedIn_logo_initials.png">
